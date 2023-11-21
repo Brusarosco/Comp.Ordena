@@ -1,7 +1,7 @@
-# Projeto de Implementação de Algoritmos de Ordenação
+# Sorting Algorithms Implementation Project
 
-Este projeto tem como objetivo a implementação de diversos algoritmos de ordenação, abrangendo tanto aqueles discutidos em sala de aula 
-quanto um algoritmo adicional escolhido por meio de pesquisa bibliográfica.
+This project aims to implement several sorting algorithms, covering both those discussed in the classroom
+as well as an additional algorithm chosen through literature research.
 - Bubble Sort
 - Improved Bubble Sort
 - Insertion Sort:
