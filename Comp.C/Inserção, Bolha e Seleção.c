@@ -6,40 +6,40 @@ void imprimir (int X[], int n) {
   for (i=0; i<n; i++) printf("%3d ", X[i]);
   printf(")\n");
   }
-  //Bolha
+  //bolha
 void ordPedregulho (int V[], int n) {
   int i, j, aux;
   for (i=0; i<n; i++)
     for (j=0; j<n-i-1; j++)
-      if (V[j]>V[j+1]) { // troque-os
+      if (V[j]>V[j+1]) { 
         aux = V[j]; // presevar V[j]
         V[j] = V[j+1];
         V[j+1] = aux; }
   }
 
-  //Seleção
+  //SeleÃ§Ã£o
 void ordSelecao (int V[], int n) {
   int i, j, aux;
   for (i=n-1; i>0; i--)
     for (j=0; j<i; j++)
-      if (V[j]>V[i]) { // troque-os
+      if (V[j]>V[i]) { 
         aux = V[j]; // presevar V[j]
         V[j] = V[i];
         V[i] = aux;
         }
   }
 
-  //Inserção
+  //InserÃ§Ã£o
 void ordInsercao (int V[], int n) {
   int i, j, aux;
   for (i=1; i<n; i++) {
     aux = V[i]; // "abrir espaco" copiando V[i]
     j = i-1;
     while (j > -1 && V[j] > aux) { // mova para direita os maiores que aux
-      V[j+1] = V[j]; // mover para direita V[j]
+      V[j+1] = V[j]; 
       j -= 1;
       }
-    V[j+1] = aux; // coloque aux na posicao correta
+    V[j+1] = aux; 
     }
   }
 
