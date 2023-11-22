@@ -4,10 +4,11 @@ This project aims to implement several sorting algorithms, covering both those d
 as well as an additional algorithm chosen through literature research.
 - Bubble Sort
 - Improved Bubble Sort
-- Insertion Sort:
-- Selection Sort:
-- Merge Sort:
-- Quick Sort:
+- Insertion Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
+- Bucket Sort
 
 ## Developed by: 
 <table>
